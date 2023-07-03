@@ -1,0 +1,40 @@
+@media screen and (max-width:900px){
+   
+    .campo_tarefa{
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 28px;
+    }
+
+    .campo_tarefa input{
+        width: 100%;
+        padding: 8px;
+        border: 1px solid var(--cor-borda);
+        border-radius: 5px;
+        background-color: var(--cor-borda);
+        box-shadow: 5px 5px 10px var(--cor-texto);   
+    }
+
+    .campo_tarefa button{
+        width: 50%;
+        margin: 0 auto;
+        padding: 8px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:550px){
+
+    .tarefa{
+
+        width: 80%;
+        row-gap: 32px;
+        padding: 10px;
+        font-size: 1.2rem;
+              
+    }
+}
+
+
+

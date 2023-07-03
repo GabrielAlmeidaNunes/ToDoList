@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-de-fundo: blue;
+    --cor-texto:black;
+    --cor-borda:white;
+    --cor-input:#3A3845;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(var(--cor-de-fundo), var(--cor-borda));
+    color: var(--cor-texto);
+}
+
